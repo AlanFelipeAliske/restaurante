@@ -1,0 +1,31 @@
+.alert{
+  background: #F0E8EF;
+}
+
+.navbar{
+  background: #D0610B;
+}
+
+.navbar-light{
+  background: #D0610B !important
+}
+
+.alert-secondary{
+  background: #D0610B;
+}
+
+.color{
+  background: #172E4F;
+}
+
+.navbar-brand{
+  font-size: 15px;
+}
+
+/*
+
+#E5BC34;
+
+
+
+*/
