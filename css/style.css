@@ -1,3 +1,7 @@
+*{
+  transition: 0.2s;
+}
+
 .alert{
   background: #F0E8EF;
 }
@@ -22,10 +26,39 @@
   font-size: 15px;
 }
 
-/*
+.number{
+  color: white;
+}
 
-#E5BC34;
+.icone{
+  margin-left: 5px;
+  width: 28px;
+}
+
+.navbar-nav{
+  align-items: flex-end;
+}
+.fa-phone-alt:before{
+  margin-right: 5px;
+}
+
+.contato{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 
-*/
+@media (max-width: 767px) {
+  .icone{
+    width: 35px;
+  }  
+  .row>*{
+    width: 50%;
+  }
+  .card-text{
+    font-size: 13px;
+  }
+
+}
